@@ -1,0 +1,12 @@
+import platform
+import os
+
+print("=== PC VIRTUAL ===")
+print("Sistema:", platform.system())
+print("Versão:", platform.version())
+print("Arquitetura:", platform.machine())
+print("Processador:", platform.processor())
+print("Núcleos disponíveis:", os.cpu_count())
+
+print("==================")
+print("Sistema iniciado!")
